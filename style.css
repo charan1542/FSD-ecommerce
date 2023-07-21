@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height:12vh;
+    background-color: black;
+    font-family: 'Agdasima', sans-serif;
+
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:12vh;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.logo
+{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+.searchbar
+{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input
+{
+    width: 50vb;
+    height: 4vh;
+    border-radius: 1vh;
+    margin-left:10vb;
+    margin-right: 2vb;
+}
+
+.searchbar button
+{
+    display: flex;
+    border-radius: 3px;
+    padding: 2px 7px;
+    background-color: gray;
+    border-color: darkgray;
+    cursor: pointer;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.searchbar button:hover
+{
+    font-weight: bolder;
+}
+
+.container
+{
+    min-height: calc(100vh - 12vh - 12vh);
+    background-color: grey;
+}
+
+.slider
+{
+    display: flex;
+    overflow: hidden;
+}
+
+.card h2{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 5vh;
+    padding-left: 2vb;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.carditems
+{
+    display: flex;
+    overflow: scroll;
+    cursor: pointer;
+    gap: 5px;
+}
+
+footer{
+    height: 15vh;
+    background-color:black;
+    color: antiquewhite;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 5vh;
+}
